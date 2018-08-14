@@ -25,7 +25,7 @@ class BasePlan():
                 #print("hehehe")                        
                 if draf_bot.can_afford(GATEWAY) and not draf_bot.already_pending(GATEWAY):
                     await draf_bot.build(GATEWAY, near=pylon)
-                    draf_bot.on_end_test()
+                    #draf_bot.on_end_test()
 
 
             if draf_bot.units(CYBERNETICSCORE).amount < self.intPlannedCyberCore:
