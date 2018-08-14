@@ -1,3 +1,20 @@
+# Python SC2 forked with DrafBot
+Welcome to the Drafbot created with python's sc2 api as backboned. Currently, it is able to beat Terran's Easy AI and occassionally Medium. 
+
+PIP libraries include:-
+sc2
+cv2
+numpy
+
+Roadmap for this BOT
+- Tensorflow to determine optimal unit composition
+- Ability to beat the hardest difficulty AI for Terran
+- Ability to beat the hardest difficulty AI for Zerg
+- Ability to beat the hardest difficulty AI for Protoss
+
+## To Run
+After cloning, installation of PIP, drafbot can be run by "python ./drafbot/drafbot.py
+
 # A StarCraft II API Client for Python 3
 
 An easy-to-use library for writing AI Bots for StarCraft II in Python 3. The ultimate goal is simplicity and ease of use, while still preserving all functionality. A really simple worker rush bot should be no more than twenty lines of code, not two hundred. However, this library intends to provide both high and low level abstractions.
@@ -67,3 +84,6 @@ If you have any issues, ideas or feedback, please create [a new issue](https://g
 ## Contributing & style guidelines
 
 Git commit messages use [imperative-style messages](https://stackoverflow.com/a/3580764/2867076), start with capital letter and do not have trailing commas.
+
+
+
